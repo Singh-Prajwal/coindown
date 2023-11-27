@@ -99,7 +99,10 @@ https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_
                 <strong>{coin.name}</strong>
               </Col>
               <Col>${coin.current_price}</Col>
-              <Col>{coin.market_cap_change_percentage_24h}%</Col>
+              {/* <Col>{coin.market_cap_change_percentage_24h}%</Col> */}
+              <Col className={coin.market_cap_change_percentage_24h < 0 ? "danger-bg" : "success-bg"}>
+                {coin.market_cap_change_percentage_24h}%
+              </Col>
             </Row>
           ))}
         </div>
@@ -123,6 +126,14 @@ export default styled(Coin)`
     border-radius: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+  }
+  .danger-bg {
+    background-color: #ffdddd; 
+    padding:0.5rem
+  }
+
+  .success-bg {
+    background-color: #ddffdd; 
   }
   .coin-img{
     width: 45%;
