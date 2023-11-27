@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Space";
+  src: local("Space"), url("./SpaceGrotesk-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Viva";
+  src: local("Viva"), url("./VinaSans-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
