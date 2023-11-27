@@ -52,7 +52,7 @@ function NavigationBar({ className, darkMode }) {
         >
           <Navbar.Text>
             <div className={`me-5 nav-element ${darkMode ? "dark-mode-text" : ""}`}>
-              <a href="/#contact" className="no-link">
+              <a href="/" className="no-link">
                 <span className={`large prime-text ${darkMode ? "dark-mode-text" : ""}`}>
                   <h4 className="m-0 text-white Viva">CONTACT</h4>
                 </span>
@@ -61,7 +61,7 @@ function NavigationBar({ className, darkMode }) {
           </Navbar.Text>
           <Navbar.Text>
             <div className={`me-5 nav-element ${darkMode ? "dark-mode-text" : ""}`}>
-              <a href="/#about" className="no-link">
+              <a href="/" className="no-link">
                 <span className={`large prime-text ${darkMode ? "dark-mode-text" : ""}`}>
                   <h4 className="m-0 text-white Viva">ABOUT</h4>
                 </span>
