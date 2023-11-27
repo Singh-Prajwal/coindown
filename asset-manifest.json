@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/coindown/static/css/main.29ebaf97.css",
-    "main.js": "/coindown/static/js/main.29971b9f.js",
+    "main.js": "/coindown/static/js/main.d4f773c3.js",
     "static/js/787.1e4d54b2.chunk.js": "/coindown/static/js/787.1e4d54b2.chunk.js",
     "static/media/VinaSans-Regular.ttf": "/coindown/static/media/VinaSans-Regular.a3809b80da4207531e33.ttf",
     "static/media/SpaceGrotesk-Regular.ttf": "/coindown/static/media/SpaceGrotesk-Regular.3683ead52440efaeba4d.ttf",
     "index.html": "/coindown/index.html",
     "main.29ebaf97.css.map": "/coindown/static/css/main.29ebaf97.css.map",
-    "main.29971b9f.js.map": "/coindown/static/js/main.29971b9f.js.map",
+    "main.d4f773c3.js.map": "/coindown/static/js/main.d4f773c3.js.map",
     "787.1e4d54b2.chunk.js.map": "/coindown/static/js/787.1e4d54b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29ebaf97.css",
-    "static/js/main.29971b9f.js"
+    "static/js/main.d4f773c3.js"
   ]
 }
